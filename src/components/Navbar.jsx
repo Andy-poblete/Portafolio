@@ -4,10 +4,9 @@ import React from "react";
 
 const Navbar = () => {
     return (
-        <div className="fixed top-0 flex w-full flex-wrap border-solid border-2 border-white bg-black p-5 text-white flex flex-row gap-7">
+        <div className="fixed top-0 w-full flex-wrap border-solid border-2 border-white bg-black p-5 text-white flex flex-row gap-7">
             <Link href="/">Home</Link>
             <div class="flex justify-between">
-
                 <a
                     href="https://www.linkedin.com/in/andy-poblete-83797b108/">
                     <span class="[&>svg]:w-5">
